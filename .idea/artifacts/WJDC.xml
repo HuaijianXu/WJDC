@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WJDC">
+    <output-path>$PROJECT_DIR$/out/artifacts/WJDC</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="河北省重大技术需求征集系统/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="河北省重大技术需求征集系统" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

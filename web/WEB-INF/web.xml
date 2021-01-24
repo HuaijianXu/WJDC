@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>register_do</servlet-name>
+        <servlet-class>servlet.register_do</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>register_do</servlet-name>
+        <url-pattern>/register_do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>dengluServlet</servlet-name>
+        <servlet-class>servlet.dengluServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dengluServlet</servlet-name>
+        <url-pattern>/dengluServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PowerServlet</servlet-name>
+        <servlet-class>servlet.PowerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PowerServlet</servlet-name>
+        <url-pattern>/PowerServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>wjSubmit</servlet-name>
+        <servlet-class>servlet.wjSubmit</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>wjSubmit</servlet-name>
+        <url-pattern>/wjSubmit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>queryWjdc</servlet-name>
+        <servlet-class>servlet.queryWjdc</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>queryWjdc</servlet-name>
+        <url-pattern>/queryWjdc</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>showWj</servlet-name>
+        <servlet-class>servlet.showWj</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>showWj</servlet-name>
+        <url-pattern>/showWj</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>getAlUser</servlet-name>
+        <servlet-class>servlet.getAllUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getAlUser</servlet-name>
+        <url-pattern>/getAllUser</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>exitServlet</servlet-name>
+        <servlet-class>servlet.exitServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>exitServlet</servlet-name>
+        <url-pattern>/exitServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addUser</servlet-name>
+        <servlet-class>servlet.addUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addUser</servlet-name>
+        <url-pattern>/addUser</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>users_do</servlet-name>
+        <servlet-class>servlet.users_do</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>users_do</servlet-name>
+        <url-pattern>/users_do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>updateUserInfo</servlet-name>
+        <servlet-class>servlet.updateUserInfo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateUserInfo</servlet-name>
+        <url-pattern>/updateUserInfo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>editUserInfo</servlet-name>
+        <servlet-class>servlet.editUserInfo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>editUserInfo</servlet-name>
+        <url-pattern>/editUserInfo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SearchWj</servlet-name>
+        <servlet-class>servlet.SearchWj</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchWj</servlet-name>
+        <url-pattern>/SearchWj</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteWj</servlet-name>
+        <servlet-class>servlet.deleteWj</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteWj</servlet-name>
+        <url-pattern>/deleteWj</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>editWjInfo</servlet-name>
+        <servlet-class>servlet.editWjInfo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>editWjInfo</servlet-name>
+        <url-pattern>/editWjInfo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>wjUpdate</servlet-name>
+        <servlet-class>servlet.wjUpdate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>wjUpdate</servlet-name>
+        <url-pattern>/wjUpdate</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>checkDoc</servlet-name>
+        <servlet-class>servlet.checkDoc</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>checkDoc</servlet-name>
+        <url-pattern>/checkDoc</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>doCheck</servlet-name>
+        <servlet-class>servlet.doCheck</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>doCheck</servlet-name>
+        <url-pattern>/doCheck</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>dofCheck</servlet-name>
+        <servlet-class>servlet.dofCheck</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dofCheck</servlet-name>
+        <url-pattern>/dofCheck</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>writecheck</servlet-name>
+        <servlet-class>servlet.writecheck</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>writecheck</servlet-name>
+        <url-pattern>/writecheck</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>writefcheck</servlet-name>
+        <servlet-class>servlet.writefcheck</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>writefcheck</servlet-name>
+        <url-pattern>/writefcheck</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PowerManage</servlet-name>
+        <servlet-class>servlet.PowerManage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PowerManage</servlet-name>
+        <url-pattern>/PowerManage</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Echarts</servlet-name>
+        <servlet-class>servlet.Echarts</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Echarts</servlet-name>
+        <url-pattern>/Echarts</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Xgmm</servlet-name>
+        <servlet-class>servlet.Xgmm</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Xgmm</servlet-name>
+        <url-pattern>/Xgmm</url-pattern>
+    </servlet-mapping>
+
+</web-app>
